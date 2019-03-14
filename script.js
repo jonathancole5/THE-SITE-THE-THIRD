@@ -8,9 +8,11 @@ function message(){
 	alert("Man, this guy seems to like classical music... Wait a minute.")
 }
 
+//This function is responsible for displaying the fake error box.
+//It's also supposed to play a sound but for unknown reasons it refuses to work.
 function peepee1(el){
 	if (document.getElementById("win").style.visibility = "visible"){
-	
+		//Do nothing
 	}
 	else if (document.getElementById("win").style.visibility = "hidden"){
 		document.getElementById("one").play();
@@ -29,7 +31,7 @@ function ha(el){
 function bach(){
 	ba = 1;
 	checkwin();
-	console.log(ba, mo, bt, win)
+	
 }
 
 function motz(){
@@ -42,6 +44,7 @@ function beet(){
 	checkwin();
 }
 
+//If anything that has this function is clicked, reset all three values to 0 and run the function peepee1.
 function other(){
 	ba = 0;
 	mo = 0;
@@ -49,11 +52,13 @@ function other(){
 	peepee1();
 }
 
+//The function here checks if all three files have been clicked, if they are, go to the win page. If they haven't don't do anything.
+//This function is assigned in the Bach, motz, and beet functions so that it does not matter which order they are clicked in.
 function checkwin(){	
 	if ((ba == 1) && (mo == 1) && (bt == 1)){
 		document.location.href = "YES/index.html";
 	}
 	else {
-		
+		//Do nothing
 	}
 }

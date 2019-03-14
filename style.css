@@ -71,6 +71,7 @@ button {
 	border: 1px rgba(255, 255, 255, 0.8) solid;
 }
 
+/*from this class to inwinbutt are the classes responsible for the fake window box.*/
 .window {
 	visibility: hidden;
 	margin: auto;
