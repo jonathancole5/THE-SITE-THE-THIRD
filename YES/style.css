@@ -1,0 +1,12 @@
+body {
+	background-color: black;
+	display: flex;
+	height: 1vh;
+	margin: 0px;
+	width: 1vw;
+	color: white;
+}
+
+h1 {
+	font-size:150px;
+}
