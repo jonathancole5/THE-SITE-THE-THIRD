@@ -10,7 +10,7 @@ function message(){
 
 //This function is responsible for displaying the fake error box.
 //It's also supposed to play a sound but for unknown reasons it refuses to work.
-function peepee1(el){
+function peepee3(el){
 	if (document.getElementById("win").style.visibility = "visible"){
 		//Do nothing
 	}
@@ -45,11 +45,11 @@ function beet(){
 }
 
 //If anything that has this function is clicked, reset all three values to 0 and run the function peepee1.
-function other(){
+function peepee1(){
 	ba = 0;
 	mo = 0;
 	bt = 0;
-	peepee1();
+	peepee3();
 }
 
 //The function here checks if all three files have been clicked, if they are, go to the win page. If they haven't don't do anything.

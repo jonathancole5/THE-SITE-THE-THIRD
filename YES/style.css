@@ -1,12 +1,47 @@
 body {
+	background-image:url("YEAH.png");
+	background-repeat:no-repeat;
+	background-size:100%;
+	margin: 0;
 	background-color: black;
-	display: flex;
-	height: 1vh;
-	margin: 0px;
-	width: 1vw;
+	display: block;
+	height: 100vh;
+	width: 100vw;
 	color: white;
 }
 
-h1 {
-	font-size:150px;
+.top {
+	display:flex;
+	height: 50%;
+	width: 100%;
+}
+
+.bot {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	height: 50%;
+	width: 100%;
+}
+
+h1{
+	text-shadow: 2px 2px 0px #000000,
+				-2px -2px 0px #000000,
+				-2px 2px 0px #000000,
+				2px -2px 0px #000000;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 300px;
+	font-family: Arial;
+}
+
+button {
+	outline: none;
+	height: 40%;
+	width: 35%;
+	margin: auto;
+	border-radius: 15px;
+	font-size: 50px;
 }
